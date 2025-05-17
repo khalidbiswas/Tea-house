@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+     <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    <!-- font cdn -->
+      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+      <!-- font awesome cdn -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
-<body>
-    
+
+<body class="mx-auto">
+    <!-- banner -->
+    <section class="flex justify-between align-center">
+        <div class="">
+            <p class="bold font-extrabold text-7xl text-[#1C1C1C]">It's good
+                tea time at The Tea House</p>
+            <p class="font-medium text-[#777777]">
+                Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+            </p>
+            <button class="flex bg-linear-to-bl from-[ #FF0000] to-[#FF8938] round-[10px]">Explore More <img src="images/arrow.png" alt=""></button>
+        </div>
+        <div class="hero-img"><img src="images/banner.png" alt=""></div>
+    </section>
 </body>
+
 </html>
